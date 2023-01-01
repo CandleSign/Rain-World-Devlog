@@ -1,0 +1,82 @@
+a:link {
+	color:#fab;
+}
+a:visited {
+	color:#c8a;
+}
+img {
+	max-width:100%;
+}
+.body {
+	background-color:#151015;
+	background-image:url(/Rain-World-Devlog/Images/Slugs.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	font-family:sans-serif;
+	color:#eee;
+	margin:0px;
+}
+.homebox {
+	background-color:#151015ea;
+	border:1px solid #FFFFFF;
+	padding:30px;
+	border-radius:5px;
+	width:fit-content;
+}
+.container {
+	display:flex;
+}
+.sidebar {
+	flex-basis:10%;
+}
+.postbox {
+	flex-basis:80%;
+	max-width:80%;
+}
+.header {
+	background-color:#251020;
+	border-bottom:3px solid #FFFFFF;
+	padding:15px 0;
+	text-align:center;
+	position:sticky;
+	top:0px;
+	transition:top 0.3s;
+	z-index:9999;
+}
+.header img {
+	height:25px;
+	vertical-align:middle;
+}
+.post {
+	background-color:#151015ea;
+	border:1px solid #FFFFFF;
+	padding:15px;
+	border-radius: 5px;
+}
+.pfp {
+	vertical-align:middle;
+}
+.lostimage {
+	background-color:#b090a040;
+	border:1px solid #ffffff;
+	padding:5px;
+}
+.quoteheader {
+	font-weight:bold;
+}
+.quote {
+	background-color:rgba(100,20,90,0.2);
+	border:2px solid #D29;
+}
+.codeheader {
+	font-weight:bold;
+}
+.code {
+	background-color:rgba(255,170,187,0.4);
+	border:2px solid #FAB;
+}
+.messagelink {
+	font-size:80%;
+}
