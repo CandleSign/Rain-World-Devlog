@@ -25,7 +25,11 @@ if (document.getElementById('pagelist')) {
 				if (Number(v) == pn) {
 					endtxt1 = '[' + endtxt1 + ']';
 				} else {
-					endtxt1 = '<a href="/Rain-World-Devlog/Pages/00' + v + '.html">' + endtxt1 + '</a>';
+					if (v < 10) {
+						endtxt1 = '<a href="/Rain-World-Devlog/Pages/00' + v + '.html">' + endtxt1 + '</a>';
+					} else {
+						endtxt1 = '<a href="/Rain-World-Devlog/Pages/0' + v + '.html">' + endtxt1 + '</a>';
+					};
 				};
 			};
 			pl2[i] = endtxt1;
