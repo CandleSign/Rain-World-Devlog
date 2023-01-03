@@ -4,16 +4,16 @@ if (document.getElementById('pagelist')) {
 	for (var j=pn-5; j < pn+5; j++) {
 		if (j > 0 && j < 96) {
 			pl.push(j);
-					};
+		};
 	};
 	if (pl[0] > 2) {
 		pl.unshift(1, '...');
 	} else if (pl[0] > 1) {
 		pl.unshift(1);
 	};
-	if (pl[0] < 94) {
+	if (pl[pl.length-1] < 94) {
 		pl.push('...', 95);
-	} else if (pl[0] < 95) {
+	} else if (pl[pl.length-1] < 95) {
 		pl.push(95);
 	};
 	var pl2 = [];
