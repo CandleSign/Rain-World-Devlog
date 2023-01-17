@@ -25,9 +25,9 @@ if (document.getElementById('pagelist')) {
 					endtxt1 = '[' + endtxt1 + ']';
 				} else {
 					if (Number(v) < 10) {
-						endtxt1 = '<a href="/Rain-World-Devlog/Pages/00' + v + '.html">' + endtxt1 + '</a>';
+						endtxt1 = '<a href="/Rain-World-Devlog/Pages/00' + v + '">' + endtxt1 + '</a>';
 					} else {
-						endtxt1 = '<a href="/Rain-World-Devlog/Pages/0' + v + '.html">' + endtxt1 + '</a>';
+						endtxt1 = '<a href="/Rain-World-Devlog/Pages/0' + v + '">' + endtxt1 + '</a>';
 					};
 				};
 			};
@@ -38,17 +38,17 @@ if (document.getElementById('pagelist')) {
 	if (pn > 1) {
 		var n = pn-1
 		if (n < 10) {
-			endtxt2 = '<a href="/Rain-World-Devlog/Pages/00' + n + '.html"><</a> ' + endtxt2;
+			endtxt2 = '<a href="/Rain-World-Devlog/Pages/00' + n + '"><</a> ' + endtxt2;
 		} else {
-			endtxt2 = '<a href="/Rain-World-Devlog/Pages/0' + n + '.html"><</a> ' + endtxt2;
+			endtxt2 = '<a href="/Rain-World-Devlog/Pages/0' + n + '"><</a> ' + endtxt2;
 		};
 	};
 	if (pn < 95) {
 		var n = pn+1
 		if (n < 10) {
-			endtxt2 = endtxt2 + ' <a href="/Rain-World-Devlog/Pages/00' + n + '.html">></a>'
+			endtxt2 = endtxt2 + ' <a href="/Rain-World-Devlog/Pages/00' + n + '">></a>'
 		} else {
-			endtxt2 = endtxt2 + ' <a href="/Rain-World-Devlog/Pages/0' + n + '.html">></a>'
+			endtxt2 = endtxt2 + ' <a href="/Rain-World-Devlog/Pages/0' + n + '">></a>'
 		};
 	};
 	document.getElementById('pagelist').innerHTML = endtxt2;
